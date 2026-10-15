@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Iowa City | Best Study Spots</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #263238;
+            background-color: #f5f7f6;
+        }
+
+        header {
+            background-color: #173f35;
+            color: white;
+            padding: 20px;
+        }
+
+        .notice {
+            max-width: 1000px;
+            margin: 0 auto 15px;
+            font-size: 0.85rem;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .site-title {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .site-title h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        .site-title p {
+            margin: 4px 0 0;
+            color: #d9e8e2;
+        }
+
+        nav {
+            background-color: #0f2f28;
+        }
+
+        nav ul {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            flex: 1;
+            min-width: 180px;
+        }
+
+        nav a {
+            display: block;
+            padding: 13px 10px;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover,
+        nav a:focus {
+            background-color: #28594c;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 35px auto;
+            padding: 0 20px;
+        }
+
+        .hero {
+            background-color: white;
+            padding: 35px;
+            border-radius: 10px;
+            border-left: 6px solid #b9975b;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #173f35;
+            margin-top: 0;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: #173f35;
+            margin-bottom: 8px;
+        }
+
+        .intro {
+            font-size: 1.1rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e8efe9;
+            color: #173f35;
+            padding: 4px 9px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
+            background-color: #173f35;
+            color: white;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 700px) {
+            .site-title h1 {
+                font-size: 1.6rem;
+            }
+
+            nav li {
+                min-width: 50%;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding: 25px;
+            }
+
+            main {
+                margin-top: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="notice">
+        This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.
+    </div>
+
+    <div class="site-title">
+        <h1>Study Iowa City</h1>
+        <p>A student-made guide to finding your ideal place to study.</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="best-places.html">Best Study Spots</a></li>
+        <li><a href="quiet-spots.html">Quiet Study Spots</a></li>
+        <li><a href="late-night.html">Late Night Spots</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section class="hero">
+        <h2>Find Your Perfect Study Spot in Iowa City</h2>
+        <p class="intro">
+            Studying does not have to mean sitting in the same library seat every day. Study Iowa City is a fictional student guide designed to help University of Iowa students discover different places to read, write, review notes, and finish assignments.
+        </p>
+        <p>
+            Whether you need a quiet corner, a comfortable place to work with friends, or somewhere to study after dinner, our guide organizes fictional local spots around the kind of study session you have planned.
+        </p>
+    </section>
+
+    <section>
+        <h2>Explore Our Study Guides</h2>
+
+        <div class="cards">
+            <article class="card">
+                <span class="tag">POPULAR PICKS</span>
+                <h3>Best Places to Study in Iowa City</h3>
+                <p>
+                    Explore three all-around study locations that combine comfortable seating, useful amenities, and a productive atmosphere.
+                </p>
+                <a href="best-places.html">See the best spots →</a>
+            </article>
+
+            <article class="card">
+                <span class="tag">FOCUS TIME</span>
+                <h3>Quiet Study Spots in Iowa City</h3>
+                <p>
+                    Need to concentrate without a lot of background noise? Check out our fictional recommendations for peaceful study sessions.
+                </p>
+                <a href="quiet-spots.html">Find quiet spots →</a>
+            </article>
+
+            <article class="card">
+                <span class="tag">AFTER HOURS</span>
+                <h3>Late Night Study Spots in Iowa City</h3>
+                <p>
+                    When an assignment is due tomorrow, you need somewhere comfortable to keep working after most places have closed.
+                </p>
+                <a href="late-night.html">Explore late-night spots →</a>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>This is a fictional website created for educational purposes as part of MKTG:4400 at the University of Iowa. It is not a real business.</p>
+</footer>
+
+</body>
+</html>
